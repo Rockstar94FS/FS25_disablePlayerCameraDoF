@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="93">
+	<author>Rockstar</author>
+
+	<version>1.0.0.0</version>
+
+	<title>
+		<en>Disable Player Camera Blur</en>
+		<de>Deaktivieren Der Player-Kameraunschärfe</de>
+		<fr>Désactiver Le Flou De La Caméra Du Lecteur</fr>
+		<pl>Wyłączenie Rozmycia Kamery Gracza</pl>
+	</title>
+
+	<description>
+		<en>
+			<![CDATA[This mod disables the player's third-person camera blur.]]></en>
+		<de>
+			<![CDATA[Dieser Mod deaktiviert die Unschärfe der Third-Person-Kamera des Spielers.]]></de>
+		<fr>
+			<![CDATA[Ce mod désactive le flou de la caméra à la troisième personne.]]></fr>
+		<pl>
+			<![CDATA[Ten mod wyłącza rozmycie kamery trzecioosobowej gracza.]]></pl>
+	</description>
+
+	<iconFilename>icon_disablePlayerCameraDoF.png</iconFilename>
+
+	<multiplayer supported="true"/>
+
+	<extraSourceFiles>
+		<sourceFile filename="scripts/DisableCameraDoF.lua"/>
+	</extraSourceFiles>
+</modDesc>
